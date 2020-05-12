@@ -1,0 +1,38 @@
+body {
+    background-image: url('http://www.wallsystem.com.br/2009/img_conteudo/1404_a.jpg');
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+}
+  
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.menu li {
+    list-style: none;
+}
+  
+a {
+    color: red;
+    text-decoration: none;
+}
+  
+a:hover {
+    font-weight: bold;
+}
+  
+.site-subtitle,
+.site-title {
+    color: red;
+    text-align: center;
+}
+  
+.site-subtitle {
+    
+}
