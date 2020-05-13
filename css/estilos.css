@@ -1,12 +1,48 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Elegante_Wolkenkratzer_an_der_Lexington_Avenue_-_panoramio.jpg');
+    background-image: url('../img/background.jpg');
     background-size: auto 100vh;
     font-family: Arial;
     height: 100vh;
+    font-size: 10px;
 }
-  
+
+@media (min-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 750px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1000px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+header{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .menu {
     background-color: #D9D2D9;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .menu ul {
@@ -17,7 +53,12 @@ body {
 .menu li {
     list-style: none;
 }
-  
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+}
+
 a {
     color: #516673;
     text-decoration: none;
@@ -29,11 +70,11 @@ a:hover {
   
 .site-subtitle,
 .site-title {
-    background-color: #0C0D0A;
     color: #D9C791;
     text-align: center;
 }
-  
-.site-subtitle {
-    
+
+.img-portfolio {
+    height: 200px;
+    width: 200px;
 }
